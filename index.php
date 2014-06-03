@@ -6,6 +6,4 @@
   define("APP",ROOT.'application'.SEPARATOR);
 
   require_once(APP."bootstrap.php");
-  require_once(CORE."log\log.php");
-  $log = new Log();
-  $log->write("IMPORTANT");
+
